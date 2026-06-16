@@ -1,0 +1,56 @@
+:root {
+  font-family: system-ui, Segoe UI, sans-serif;
+  color:#222;
+  background:#fff;
+}
+
+
+body {
+
+margin:0;
+
+}
+
+th {
+  cursor: pointer;
+  user-select: none;
+  text-align: left;
+  white-space: nowrap;
+}
+
+th:nth-child(4),
+td:nth-child(4),
+th:nth-child(5),
+td:nth-child(5) {
+  text-align: center;
+  min-width: 90px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: auto;
+}
+
+td {
+  max-width: 300px;
+  white-space: normal;
+}
+
+table {
+  table-layout: auto;
+}
+
+.sortable {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+#app {
+
+min-height:100vh;
+
+}

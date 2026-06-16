@@ -1,0 +1,21 @@
+# Build output
+bin/
+obj/
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+
+# User files
+*.user
+*.suo
+
+# Logs
+*.log
+
+#Front End  
+node_modules/
+dist/
+dist-ssr/
+*.local
+.DS_Store
